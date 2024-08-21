@@ -1,0 +1,194 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+header h4{
+    font-family: "Josefin Slab", serif;
+    font: oblique;
+}
+
+img {
+    transition: transform 0.3s; 
+}
+
+header img:hover {
+    transform: scale(1.1); 
+}
+
+#boton-indice {
+    background-color: #33333300;
+    right: 10px;
+    position: fixed;
+    color: white;
+    border: none;
+    z-index: 9999;
+}
+
+#indice {
+    display: none;
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    background-color: #333;
+    padding: 10px;
+    z-index: 9999;
+}
+
+#indice ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#indice ul li {
+    margin-bottom: 10px;
+}
+
+#indice ul li a {
+    font-family: "Josefin Slab", serif;;
+    color: #fff;
+    text-decoration: none;
+}
+
+#indice ul li a:hover {
+    color: #00ffdd;
+}
+
+body {
+    color: #333; 
+    background-color: #f2f2f2;
+}
+
+section{
+    margin: 30px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+    margin: 0 25px;
+}
+
+.texto h2 {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    text-align: left;
+}
+
+#fecha {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.texto p {
+    font-family: "Josefin Slab", serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.imagen {
+    flex: 1; 
+}
+
+h5 {
+    font-family: "Josefin Slab", serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.ubicacion{
+    text-align: center;
+}
+
+.obras {
+    align-items: center;
+}
+
+#carouselExampleCaptions{
+    background-color: #8e7653ad;
+}
+
+.slides{
+    display: block; 
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px rgb(61, 61, 61);
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.copyright {
+    font-family: "Josefin Slab", serif;
+    font-style: normal;
+    font-size: small;
+    text-align: left;
+    font-weight: 400;
+    margin: 0px 100px 20px ;
+}
+
+.frase {
+    font-family: "Sacramento", cursive;
+    font-style: normal;
+    font-size:x-large;
+    font-weight: 200;
+    margin: 25px 0 50px 0;
+}
+
+.contacto {
+    text-align: left;
+    font-size: small;
+    margin: 0px 100px;
+}
+
+.contacto a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.contacto p {
+    font-family: "Josefin Slab", serif;
+    align-items: center;
+    font-weight: 600;
+    margin: 10px 20px;
+}
+
+#firma{
+    text-align: right;
+    font-family:"Sacramento", cursive;
+    font-size: xx-large;
+}
